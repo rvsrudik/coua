@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.34.0",
-    "serve": "^14.2.1",
+    "serve": "^14.2.4",
     "vue": "^3.3.13"
   },
   "devDependencies": {
