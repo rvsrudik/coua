@@ -1,7 +1,7 @@
 <template>
 <div class="service-card">
     <div class="display: flex;">
-        <h4 style="margin: 0; background-color: #e4ecef; color: #0f0f0f; width: fit-content; padding: 4px 12px; border-radius: 32px;" v-for="(category, i) in  service.categories"> {{ category }} </h4>
+        <h4 style="margin: 0; background-color: #e4ecef; color: #0f0f0f; width: fit-content; padding: 4px 12px; border-radius: 32px;" v-for="(category, i) in  service.categories" :key="i"> {{ category }} </h4>
     </div>
     
     <!-- <div style="display: flex; align-items: center; gap: 12px;"> -->
@@ -18,7 +18,7 @@
 
 <script setup>
 
-const props = defineProps({
+defineProps({
     service: {}
 })
 </script>
