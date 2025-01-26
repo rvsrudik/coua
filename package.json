@@ -16,6 +16,6 @@
     "vue-router": "latest"
   },
   "engines": {
-      "node": "23.x"
+      "node": "23.6.0"
   }
 }
