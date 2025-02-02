@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <h1>Українці в Колорадо | Послуги</h1>
+    <div class="p-4 md:p-6">
+        <h1 class="uppercase font-bold text-2xl mb-5">Українці в Колорадо | Послуги</h1>
 
-        <input v-model="search" style="border-radius: 12px; height: 36px; margin-bottom: 16px; padding: 0 12px; width: 320px; border: 1px solid lightblue;" placeholder="Search..." type="text">
+        <input v-model="search" class="h-12 rounded-xl mb-4 px-3 w-full sm:w-96  border-1 border-sky-200"  placeholder="Пошук..." type="text">
 
         <div class="services-list">
             <ServiceCard v-for="(service, i) in searchServices" :key="i" :service="service" />
@@ -19,7 +19,6 @@ const search = ref('')
 const searchServices = computed(() => {
     return services.filter((s) => {
         const searchString = (s.name + s.address + s.phones.join('') + s.categories.join('') + s.description).toLowerCase()
-        console.log(searchString)
         return searchString.includes(search.value.toLowerCase())
     })
 })
@@ -28,7 +27,6 @@ const searchServices = computed(() => {
 <style scoped>
     .services-list {
         display: flex;
-        /* flex-direction: column; */
         gap: 12px;
         flex-wrap: wrap;
     }
