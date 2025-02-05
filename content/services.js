@@ -162,7 +162,7 @@ export default [
     {
         name: 'L’UBOV BEATY SPA',
         phones: ['720-835-8225'],
-        categories: ['💄 Бʼюті сфераСалони', 'Салон'],
+        categories: ['💄 Бʼюті сфера', 'Салон'],
         description: '',
         photos: [''],
         address: ''
