@@ -386,51 +386,247 @@ export default [
             instagram: '@Blaze_bliss'
         }
     },
+    {
+        name: 'Марія (хліб)',
+        phones: ['303-875-6993'],
+        categories: ['🍲 Домашня їжа'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'bread_with_ukrainian_heart_co',
+        phones: [''],
+        categories: ['🍲 Домашня їжа'],
+        description: '@bread_with_ukrainian_heart_co',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Яна Куренко',
+        phones: ['302-864-5415'],
+        categories: ['🎂 Кондитери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Софія',
+        phones: ['720-871-9585'],
+        categories: ['🎂 Кондитери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Оксана',
+        phones: ['720-757-2717'],
+        categories: ['🎂 Кондитери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Тетяна Воронцова',
+        phones: ['719-755-2496'],
+        categories: ['🎂 Кондитери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Іванка',
+        phones: ['470-522-0546'],
+        categories: ['🎂 Кондитери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Олена',
+        phones: ['720-419-9321'],
+        categories: ['🎂 Кондитери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Юля',
+        phones: ['719-210-5861'],
+        categories: ['🎂 Кондитери'],
+        description: '',
+        photos: [''],
+        address: 'Colorado Springs, 80923',
+    },
+    {
+        name: 'Анна (ляльки-мотанки)',
+        phones: ['@motannka'],
+        categories: ['🎨 Вироби ручної роботи'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Зоряна-брошки, горлиці, біжутерія',
+        phones: ['303-598-5585'],
+        categories: ['🎨 Вироби ручної роботи'],
+        description: '@zoriana.herman',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Катерина-художниця',
+        phones: [''],
+        categories: ['🎨 Вироби ручної роботи'],
+        description: '@Bonakat',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Oля Паріс-петриківський розпис',
+        phones: [''],
+        categories: ['🎨 Вироби ручної роботи'],
+        description: '@olha.paris',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Настя-біжутерія, картини',
+        phones: [''],
+        categories: ['🎨 Вироби ручної роботи'],
+        description: '@nusinks.art',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Аня-чайні бомбочки',
+        phones: ['720-969-9239'],
+        categories: ['🎨 Вироби ручної роботи'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Наталя',
+        phones: [],
+        categories: ['📸 Фотографи'],
+        description: 'www.zelinskaphoto.com',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Катя',
+        phones: ['720-909-1463'],
+        categories: ['📸 Фотографи'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Вікторія',
+        phones: [],
+        categories: ['📸 Фотографи'],
+        description: '@bipolar_cat',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Яна',
+        phones: ['720-236-3241'],
+        categories: ['📸 Фотографи'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Олена',
+        phones: [],
+        categories: ['📸 Фотографи'],
+        description: '@elenameom',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Юлія',
+        phones: [],
+        categories: ['📸 Фотографи'],
+        description: '303-419-7167',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Катерина',
+        phones: [],
+        categories: ['📸 Фотографи'],
+        description: '@katruzphoto',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Ірина',
+        phones: [],
+        categories: ['📸 Фотографи'],
+        description: '@irisonchik_in_ua',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Volodymyr Petruniv',
+        phones: [],
+        categories: ['📸 Фотографи'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Костя',
+        phones: ['720-693-0868'],
+        categories: ['🛞 СТО'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Олег',
+        phones: ['303-638-9078'],
+        categories: ['🛞 СТО'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Влад',
+        phones: ['720-582-0988'],
+        categories: ['🛞 СТО'],
+        description: '',
+        photos: [''],
+        address: '185 W Louisiana Ave Denver 80223',
+    },
+    {
+        name: 'Володимир',
+        phones: ['720-202-6790'],
+        categories: ['🛞 СТО'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Сергій',
+        phones: ['720-957-1977'],
+        categories: ['🛞 СТО'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Євген ремонт/продаж велосипедів',
+        phones: ['720-964-9491'],
+        categories: ['🛞 СТО'],
+        description: '',
+        photos: [''],
+        address: 'Boulder',
+    },
 ]
-// 📌Домашня їжа 🍲
-// 🥖Марія (хліб)  303-875-6993 
-// bread_with_ukrainian_heart_co
-
-// 📌Кондитери 🎂 
-// 🍰Яна Куренко  302-864-5415
-// 🍰Софія 720-871-9585
-// 🍰Оксана 720-757-2717
-// 🍰Тетяна Воронцова 719-755-2496
-// 🍰Іванка 470-522-0546
-// 🍰Олена 720-419-9321  
-// 🍰Юля 719-210-5861 (Colorado Springs, 80923)
-
-// 📌Вироби ручної роботи🎁
-// 👩‍🦳Анна (ляльки-мотанки) motannka Anna 
-// 🪡Зоряна-брошки, горлиці, біжутерія 303-598-5585 @zoriana.herman
-// 🎨Катерина-художниця
-// @Bonakat 
-// 🎨Oля Паріс-петриківський розпис olha.paris
-// 🎨Настя-біжутерія, картини nusinks.art
-// 🫖Аня-чайні бомбочки
-// 720- 969-9239
-
-// 📌Фотографи 📸
-// 📷Наталя  www.zelinskaphoto.com 
-// 📷Катя 720-909-1463
-// 📷Вікторія @bipolar_cat
-// 📷Яна 720-236-3241
-// 📷Олена @elenameom
-// 📷Юлія 303-419-7167
-// 📷Катерина @katruzphoto
-// 📷Ірина @irisonchik_in_ua
-// 📷Volodymyr Petruniv 
-
-// 📌СТО 🛞
-// ⚒️Костя 720-693-0868
-// ⚒️Олег 303-638-9078
-// ⚒️Влад 720-582-0988
-// 📍185 W Louisiana Ave Denver 80223
-// ⚒️Володимир
-// 720-202-6790
-// ⚒️Сергій 720-957-1977
-// 🚲Євген ремонт/продаж велосипедів 720-964-9491 Boulder
-
 
 // 📌Ріелтори/брокери🏡
 // 🔑Марина Дуброва 720-936-0540

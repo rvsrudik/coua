@@ -32,7 +32,6 @@ const selectedTags = ref([])
 const searchServices = computed(() => {
     return services.filter((s) => {
         const searchString = (s.name + s.address + s.phones.join('') + s.categories.join('') + s.description).toLowerCase()
-        console.log('searchString.toLowerCase().includes(search.value.toLowerCase())', searchString.toLowerCase().includes(search.value.toLowerCase()))
         return searchString.toLowerCase().includes(search.value.toLowerCase()) && (selectedTags.value.length ? s.categories.find(c => selectedTags.value.includes(c)) : true)
     })
 })
