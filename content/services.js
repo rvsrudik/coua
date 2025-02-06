@@ -626,30 +626,136 @@ export default [
         photos: [''],
         address: 'Boulder',
     },
+    {
+        name: 'Марина Дуброва',
+        phones: ['720-936-0540'],
+        categories: ['🏡 Ріелтори/брокери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Oksana Dovgan',
+        phones: ['913-213-7346'],
+        categories: ['🏡 Ріелтори/брокери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Alina Dolzenko-Tatkova',
+        phones: ['903-520-2682'],
+        categories: ['🏡 Ріелтори/брокери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Ivanna Druchkiv Mortgage broker',
+        phones: ['303-827-8814'],
+        categories: ['🏡 Ріелтори/брокери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Oksana Lewicki',
+        phones: ['720-378‑2669'],
+        categories: ['🏡 Ріелтори/брокери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Galina Solonenko',
+        phones: ['720-862-8622'],
+        categories: ['🏡 Ріелтори/брокери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Helen Bovin',
+        phones: ['720-404-0043'],
+        categories: ['🏡 Ріелтори/брокери'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Iлона Старчак',
+        phones: ['720-282-9645'],
+        categories: ['⚖️ Еміграційний адвокат'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Anya Lear',
+        phones: ['303-578-9083'],
+        categories: ['⚖️ Еміграційний адвокат'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Olga Khomyak',
+        phones: ['917-929-4295'],
+        categories: ['⚖️ Еміграційний адвокат'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'KeyBank Катерина',
+        phones: ['303-804-2673'],
+        categories: ['🏦 Банк'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Polam FCU Тетяна',
+        phones: ['303-439-2888'],
+        categories: ['🏦 Банк'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'FirstBank Joli (Іоланта)',
+        phones: ['720-876-1586'],
+        categories: ['🏦 Банк'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Оксана',
+        phones: ['720-277-1891'],
+        categories: ['📜 Переклади'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Маргарита',
+        phones: ['720-473-9898'],
+        categories: ['📜 Переклади'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: '',
+        phones: [''],
+        categories: [''],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    
 ]
-
-// 📌Ріелтори/брокери🏡
-// 🔑Марина Дуброва 720-936-0540
-// 🔑Oksana Dovgan 913-213-7346
-// 🔑Alina Dolzenko-Tatkova 903-520-2682
-// 🔑Ivanna Druchkiv Mortgage broker 303-827-8814
-// 🔑Oksana Lewicki 720-378‑2669
-// 🔑Galina Solonenko 720-862-8622
-// 🔑Helen Bovin 720-404-0043
-
-// 📌Еміграційний адвокат⚖️
-// 📇Iлона Старчак 720-282-9645
-// 📇Anya Lear 303-578-9083
-// 📇Olga Khomyak 917-929-4295
-
-// 📌Банк 🏦
-// KeyBank Катерина 303-804-2673
-// Polam FCU Тетяна 303-439-2888
-// FirstBank Joli (Іоланта) 720-876-1586
-
-// 📌Переклади📜
-// 🖌️Оксана 720-277-1891
-// 🖌️Маргарита 720-473-9898
 
 // 📌Нотаріальні послуги💼
 // 📄Ірина Шаталова 303-856-6348
