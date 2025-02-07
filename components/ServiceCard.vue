@@ -9,7 +9,7 @@
         <a v-for="(phone, i) in service.phones" :key="i" :href='`tel:${phone}`'>{{phone}}</a> 
     </p>
 
-    <p v-if="service.description">{{  service.description  }}</p>
+    <p v-if="service.description" class="[word-wrap:break-word]">{{  service.description  }}</p>
 </div>
 </template>
 
