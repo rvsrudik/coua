@@ -747,38 +747,65 @@ export default [
         address: '',
     },
     {
-        name: '',
-        phones: [''],
-        categories: [''],
+        name: 'Ірина Шаталова',
+        phones: ['303-856-6348'],
+        categories: ['💼 Нотаріальні послуги'],
         description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Маргарита',
+        phones: ['720-473-9898'],
+        categories: ['💼 Нотаріальні послуги'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'KOBZAR Ukrainian School',
+        phones: [''],
+        categories: ['📚 Освіта'],
+        description: 'https://t.me/KOBZAR_UkrainianHeritageSchool',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'NovaStar Kids CO',
+        phones: ['720-987-1177'],
+        categories: ['📚 Освіта'],
+        description: `
+            Campus 1 (садок)
+            📍20901 East Smoky Hill Road Centennial CO 80015
+            Campus 2 (школа К-8)
+            📍11002 E Arapahoe Pl Centennial CO 80112
+        `,
+        photos: [''],
+        address: 'Longmont',
+    },
+    {
+        name: 'KidsGalaxy',
+        phones: [''],
+        categories: ['🤸 Ігровий майданчик'],
+        description: 'https://kidsgalaxyco.com',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Оксана',
+        phones: ['720-948-5449'],
+        categories: ['🏫 Реєстрація до школи'],
+        description: 'Aurora Public Schools',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Зоряна',
+        phones: ['720-886-7033'],
+        categories: ['🏫 Реєстрація до школи'],
+        description: 'Cherry Creek School District',
         photos: [''],
         address: '',
     },
     
 ]
-
-// 📌Нотаріальні послуги💼
-// 📄Ірина Шаталова 303-856-6348
-// 📄Маргарита 720-473-9898
-
-// 📌Освіта🇺🇦
-// 📚KOBZAR Ukrainian School  Група у FB, Telegram 
-// https://t.me/KOBZAR_UkrainianHeritageSchool
-
-// 📚NovaStar Kids CO
-// 720-987-1177
-// Campus 1 (садок)
-// 📍20901 East Smoky Hill Road Centennial CO 80015
-// Campus 2 (школа К-8)
-// 📍11002 E Arapahoe Pl Centennial CO 80112
-
-// 📌Ігровий майданчик
-// 🤸KidsGalaxy 
-// 📍Longmont 
-// https://kidsgalaxyco.com
-
-// 📌 Реєстрація до школи🏫 
-// 📝Оксана 720-948-5449
-// Aurora Public Schools
-// 📝Зоряна 720-886-7033
-// Cherry Creek School District
