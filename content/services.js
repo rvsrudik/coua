@@ -817,5 +817,47 @@ export default [
         photos: [''],
         address: '',
     },
+    {
+        name: 'HRBlock',
+        phones: ['720-470-5902'],
+        categories: ['🗂 Податки', 'Tax Pro'],
+        description: '',
+        photos: [''],
+        address: '',
+    },
+    {
+        name: 'Desired fleur CO',
+        phones: ['440-681-0785'],
+        categories: ['💐 Флористика'],
+        description: 'Букети, гелеві кульки, ручні букети, квіткові бокси, коробки з квітами та цукерками, квіти',
+        photos: [''],
+        address: 'Доставка або самовивіз',
+        socialMedia: {
+            instagram: {
+                title: '@desired_fleur_co',
+                link: 'https://www.instagram.com/desired_fleur_co'
+            },
+        }
+    },
+    {
+        name: 'Юлія',
+        phones: [],
+        categories: ['📸 Фотографи'],
+        description: '',
+        photos: [''],
+        address: '',
+        socialMedia: {
+            instagram: {
+                title: '@photo.julys',
+                link: 'https://www.instagram.com/photo.julys'
+            },
+            facebook: {
+                title: 'Yuliia Laishchuk',
+                link: 'https://www.facebook.com/profile.php?id=100094055117977'
+            },
+        }
+    },
+
+
     
 ]
