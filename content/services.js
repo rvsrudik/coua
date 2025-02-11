@@ -590,9 +590,19 @@ export default [
         name: 'Олег',
         phones: ['303-638-9078'],
         categories: ['🛞 СТО'],
-        description: '',
+        description: 'Кузовний ремонт і пофарбування авто',
         photos: [''],
-        address: '',
+        socialMedia: {
+            instagram: {
+                title: '@RS_CARS_LLC',
+                link: 'https://www.instagram.com/RS_CARS_LLC'
+            },
+            facebook: {
+                title: 'R&S Cars LLC',
+                link: 'https://www.facebook.com/profile.php?id=61564532790758'
+            }
+        },
+        address: 'Castle Rock',
     },
     {
         name: 'Влад',
