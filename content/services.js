@@ -1701,4 +1701,23 @@ export default [
             }
         } 
     },
+    {
+        name: '603 Embroidery',
+        phones: ['720-678-4245'],
+        categories: [
+            '👕 Одяг',
+            'Вишиванки',
+            'Нашивка лого на одяг',
+        ],
+        description: '',
+        photos: [],
+        website: 'https://603embroidery.clothing/',
+        address: 'Aurora',
+        socialMedia: {
+            instagram: {
+                title: "@603_embroidery",
+                link: "https://www.instagram.com/603_embroidery/"
+            },
+        } 
+    },
 ]
