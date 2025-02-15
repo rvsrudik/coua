@@ -6,7 +6,7 @@
     
     <h3 class="font-bold my-3">{{ service.name  }}</h3>
 
-    <p v-if="service.description" class="[word-wrap:break-word] flex-nowrap mb-5">{{  service.description  }}</p>
+    <p v-if="service.description" class="[word-wrap:break-word] flex-nowrap mb-5" v-html="service.description"></p>
 
     <p v-if="service.phones.length" class="flex gap-1 mb-3">
         <a v-for="(phone, i) in service.phones" :key="i" :href='`tel:${phone}`' class="underline text-blue-800">{{phone}}</a> 
@@ -16,7 +16,7 @@
 
     <p v-if="service.website" class="[word-wrap:break-word] underline text-blue-800 mt-3">
         <!-- <svg version="1.1" class="mr-1" id="Layer_1" width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.044 512.044" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <rect x="446.121" y="335.111" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -132.9848 440.9132)" style="fill:#25B6D2;" width="39.232" height="91.745"></rect> <polygon style="fill:#25B6D2;" points="390.254,391.574 372.462,289.165 474.871,306.957 "></polygon> </g> <path style="fill:#415E72;" d="M22.264,84.753h415.535c12.296,0,22.264,9.968,22.264,22.264V225.74 c0,12.296-9.968,22.264-22.264,22.264H22.264C9.968,248.004,0,238.036,0,225.74V107.018C0,94.722,9.968,84.753,22.264,84.753z"></path> <g> <path style="fill:#25B6D2;" d="M72.609,128.394l9.984,38.401c2.176,8.416,4.2,16.208,5.6,24h0.472 c1.712-7.648,4.2-15.76,6.696-23.864l12.32-38.529h11.52l11.696,37.745c2.808,9.04,5,16.992,6.712,24.648h0.472 c1.464-8.264,3.392-16.44,5.768-24.488l10.752-37.897h13.6l-24.336,75.489h-12.48l-11.536-36.001 c-2.664-8.144-4.904-16.424-6.712-24.8h-0.336c-1.8,8.448-4.088,16.784-6.856,24.96l-12.168,35.873h-12.48l-22.72-75.537 L72.609,128.394L72.609,128.394z"></path> <path style="fill:#25B6D2;" d="M189.251,128.394l9.984,38.401c2.176,8.416,4.2,16.208,5.6,24h0.472 c1.712-7.648,4.2-15.76,6.696-23.864l12.32-38.529h11.536l11.696,37.745c2.808,9.04,5,16.992,6.712,24.648h0.472 c1.464-8.264,3.392-16.44,5.768-24.488l10.752-37.897h13.6l-24.336,75.489h-12.52l-11.536-36.001 c-2.664-8.144-4.904-16.424-6.712-24.8h-0.312c-1.8,8.448-4.088,16.784-6.856,24.96l-12.168,35.873h-12.48l-22.736-75.537H189.251z "></path> <path style="fill:#25B6D2;" d="M305.885,128.394l9.984,38.401c2.176,8.416,4.2,16.208,5.6,24h0.472 c1.712-7.648,4.2-15.76,6.696-23.864l12.32-38.529h11.536l11.696,37.745c2.808,9.04,5,16.992,6.712,24.648h0.472 c1.464-8.264,3.392-16.44,5.768-24.488l10.752-37.897h13.6l-24.336,75.489h-12.48l-11.536-36.001 c-2.664-8.144-4.904-16.424-6.712-24.8h-0.312c-1.8,8.448-4.088,16.784-6.856,24.96l-12.168,35.873h-12.48l-22.768-75.537 L305.885,128.394L305.885,128.394z"></path> </g> </g></svg> -->
-        <a :href="service.website" class="[word-wrap:break-word]" target="_blank">{{  service.website  }}dsfsdfsd</a>
+        <a :href="service.website" class="[word-wrap:break-word]" target="_blank">{{  service.website  }}</a>
     </p>
 
     <p v-if="service.address" class="[word-wrap:break-word] flex mt-3">
