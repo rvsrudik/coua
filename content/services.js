@@ -1720,4 +1720,73 @@ export default [
             },
         } 
     },
+    {
+        name: 'Eidos Club',
+        phones: ['720-7374-627'],
+        categories: [
+            '📚 Освіта',
+            'Summer Camp',
+        ],
+        description: 'Summer Camp, Quiz game for kids and teens, brain\'s workouts classes for kids and adults.',
+        photos: [],
+        website: '',
+        address: '6017 S Andes Cir, Aurora, CO, 80016 / Online',
+        socialMedia: {
+            facebook: {
+                title: "Eidos Club",
+                link: "https://www.facebook.com/eidos.brain/"
+            },
+        } 
+    },
+    {
+        name: 'Kamenetsky Law',
+        phones: ['720-443-1844'],
+        categories: [
+            'Адвокат',
+            'Ekaterina Kamenetsky'
+        ],
+        description: '',
+        photos: [],
+        website: 'https://www.kamenetskylaw.com/',
+        address: '100 Fillmore Street, Denver, CO 80206',
+        socialMedia: {
+            facebook: {
+                title: "Kamenetsky Law",
+                link: "https://www.facebook.com/profile.php?id=61556646033438"
+            },
+        } 
+    },
+    {
+        name: 'LOTUS maids # house office cleaning',
+        phones: ['720-345-9327'],
+        categories: [
+            '🧹 Клінінг',
+            'Home cleaning',
+            'Office cleaning'
+        ],
+        description: 'Прибирання будинків, офісів, апартаментів . Будь які побажання . Швидко, професійно із конкурентними цінами.',
+        photos: [],
+        website: 'https://lotusmaid.com/',
+        address: '',
+        socialMedia: {
+            
+        } 
+    },
+    {
+        name: 'Роман',
+        phones: ['720-725-4411', '720-592-9772'],
+        categories: [
+            '🛞 СТО',
+            'Ремонт машини',
+            'Автомайстер',
+            'Ремонт двигуна'
+        ],
+        description: 'Ремонт і заміна двигуна, трансмісія, ходова частина, гальмівні колодки/диски та багато іншого. ',
+        photos: [],
+        website: '',
+        address: '3956 Newport st, Unit B, Denver, CO 80207',
+        socialMedia: {
+            
+        } 
+    },
 ]
