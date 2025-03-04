@@ -1,3 +1,5 @@
+
+
 export default [
     {
         "name": "Євгенія",
@@ -27,21 +29,6 @@ export default [
             ""
         ],
         "address": ""
-    },
-    {
-        "name": "Наталя",
-        "phones": [
-            ""
-        ],
-        "categories": [
-            "💄 Бʼюті сфера",
-            "Епіляція"
-        ],
-        "description": "електроепіляція",
-        "photos": [
-            ""
-        ],
-        "address": "",
     },
     {
         "name": "Sam Gindin",
@@ -233,7 +220,7 @@ export default [
             "303-617-7905"
         ],
         "categories": [
-            "👓 Офтальмолог"
+            "👓 Оптика"
         ],
         "description": "",
         "photos": [
@@ -758,7 +745,7 @@ export default [
         "address": ""
     },
     {
-        "name": "Зоряна-брошки, горлиці, біжутерія",
+        "name": "Зоряна - біжурерія ручної роботи з Українською душею",
         "phones": [
             "303-598-5585"
         ],
@@ -769,6 +756,17 @@ export default [
         "photos": [
             ""
         ],
+        socialMedia: {
+            facebook: {
+                title: "Zoriana Herman",
+                link: "https://www.facebook.com/profile.php?id=100009324858032&mibextid=wwXIfr&rdid=wcoeX8eIwXFwIClY&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19vkmi8jPh%2F%3Fmibextid%3DwwXIfr#"
+            },
+            instagram: {
+                title: "@zoriana.herman",
+                link: "https://www.instagram.com/zoriana.herman?igsh=YWFwbTkwa3Vpa295&utm_source=qr"
+            },
+        },
+        website: "https://www.etsy.com/shop/kolosokk",
         "address": ""
     },
     {
@@ -1051,7 +1049,7 @@ export default [
             "303-333-1632"
         ],
         "categories": [
-            "👓 Офтальмолог"
+            "👓 Оптика"
         ],
         "description": "",
         "photos": [
@@ -1212,7 +1210,7 @@ export default [
         "categories": [
             "🎨 Вироби ручної роботи"
         ],
-        "description": "@olha.paris",
+        "description": "@olha.paris",   
         "photos": [
             ""
         ],
@@ -1721,6 +1719,23 @@ export default [
         } 
     },
     {
+        name: 'Lavanda',
+        phones: [],
+        categories: [
+            '👕 Одяг',
+            'Вишиванки',
+        ],
+        description: '',
+        photos: [],
+        address: '1402 S Parker Rd # A108, Denver, CO 80231',
+        socialMedia: {
+            facebook: {
+                title: "@603_embroidery",
+                link: "https://www.facebook.com/share/15eKm9CyC1/?mibextid=wwXIfr"
+            },
+        } 
+    },
+    {
         name: 'Eidos Club',
         phones: ['720-7374-627'],
         categories: [
@@ -1790,3 +1805,7 @@ export default [
         } 
     },
 ]
+
+// name: string
+// phones [{number, type}] 
+//
