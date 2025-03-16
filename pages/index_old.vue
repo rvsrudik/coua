@@ -12,10 +12,11 @@
 
         <input v-model="search" class="h-12 rounded-xl mb-4 px-3 w-full sm:w-96  border-1 border-sky-200"  placeholder="Пошук..." type="text">
 
-        <div v-if="loading.categories">Loading...</div>
-         <div v-else class="flex gap-2 flex-wrap mb-8">
-            <span v-for="tag in categories" :key="tag" class="py-1 px-2 rounded-xl cursor-pointer" :class="[selectedTag === tag.slug ? 'bg-indigo-500 text-gray-200' : 'bg-indigo-100 text-gray-700']" @click="selectedTag = tag.slug">{{ tag.name[language] }} </span>
+        <!-- filters -->
+         <div  class="flex gap-2 flex-wrap mb-8">
+            <span v-for="tag in categories" :key="tag" class="py-1 px-2 rounded-xl cursor-pointer" :class="[selectedTags.includes(tag) ? 'bg-indigo-500 text-gray-200' : 'bg-indigo-100 text-gray-700']" @click="onClickTag(tag)">{{ tag }} <span v-if="selectedTags.includes(tag)" class="font-bold ml-1 text-gray-800">x</span> </span>
             <span v-if="selectedTags.length" class="py-1 px-2 rounded-xl cursor-pointer border-1 border-indigo-900" @click="selectedTags = []">Очистити фільтр</span>
+
          </div>
 
         <div class="services-list">
@@ -30,35 +31,6 @@ import ServiceCard from '~/components/ServiceCard.vue';
 
 const search = ref('')
 const selectedTags = ref([])
-const selectedTag = ref(null)
-const categories = ref(null);
-const language = 'uk';
-const loading = ref({
-    categories: false
-})
-
-async function fetchCategories() {
-    loading.value.categories = true;
-    const url = "https://www.api-uaco.xyz/services/categories";
-
-    try {
-        const response = await fetch(url);
-        if (!response.ok) {
-        throw new Error(`Response status: ${response.status}`);
-        }
-
-        const unsortedCategories = await response.json();
-        unsortedCategories.sort((a, b) => a.name.uk.localeCompare(b.name.uk, 'uk', { sensitivity: 'base' }))
-
-        console.log('a', unsortedCategories)
-
-        categories.value = unsortedCategories;
-  } catch (error) {
-    console.error(error.message);
-  } finally {
-    loading.value.categories = false;
-  }
-}
 
 const searchServices = computed(() => {
     return services.filter((s) => {
@@ -67,6 +39,9 @@ const searchServices = computed(() => {
     })
 })
 
+const categories = computed(() => {
+    return [...new Set(services.map(s => s.categories[0]))]
+})
 
 function onClickTag(tag) {
     if (selectedTags.value.includes(tag)) {
@@ -76,9 +51,24 @@ function onClickTag(tag) {
     }
 }
 
-onMounted(() => {
-    fetchCategories()
-})
+function shuffle(arr) {
+  let currentIndex = array.length;
+  const array = [...arr]
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    let randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array
+}
 
 useHead({
   title: 'Українці в Колорадо | Послуги',
@@ -86,7 +76,6 @@ useHead({
     { name: 'description', content: 'Платформа для українців у Колорадо, яка дозволяє знаходити та додавати послуги й сервіси в різних сферах, таких як ремонт, освіта, медицина, доставка, юридична допомога, ІТ-послуги та багато іншого.' }
   ]
 })
-
 </script>
 
 <style scoped>

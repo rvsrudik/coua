@@ -1,0 +1,138 @@
+[
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4601"),
+      "name": { "en": "Auto Insurance", "uk": "Автострахування" },
+      "slug": "auto-insurance"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4602"),
+      "name": { "en": "Beauty Industry", "uk": "Бʼюті сфера" },
+      "slug": "beauty-industry"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4603"),
+      "name": { "en": "Photographers", "uk": "Фотографи" },
+      "slug": "photographers"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4604"),
+      "name": { "en": "Handmade Crafts", "uk": "Вироби ручної роботи" },
+      "slug": "handmade-crafts"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4605"),
+      "name": { "en": "Auto Repair (STO)", "uk": "СТО" },
+      "slug": "auto-repair"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4606"),
+      "name": { "en": "Medical Insurance", "uk": "Медичне страхування" },
+      "slug": "medical-insurance"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4607"),
+      "name": { "en": "Floristry", "uk": "Флористика" },
+      "slug": "floristry"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4608"),
+      "name": { "en": "Doctors", "uk": "Лікарі" },
+      "slug": "doctors"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4609"),
+      "name": { "en": "Ophthalmologist", "uk": "Офтальмолог" },
+      "slug": "ophthalmologist"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4610"),
+      "name": { "en": "Realtors / Brokers", "uk": "Ріелтори/брокери" },
+      "slug": "realtors-brokers"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4611"),
+      "name": { "en": "Confectioners / Bakers", "uk": "Кондитери" },
+      "slug": "confectioners-bakers"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4612"),
+      "name": { "en": "Translation Services", "uk": "Переклади" },
+      "slug": "translation-services"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4613"),
+      "name": { "en": "Homemade Food", "uk": "Домашня їжа" },
+      "slug": "homemade-food"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4614"),
+      "name": { "en": "Banking Services", "uk": "Банк" },
+      "slug": "banking-services"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4615"),
+      "name": { "en": "Immigration Lawyer", "uk": "Еміграційний адвокат" },
+      "slug": "immigration-lawyer"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4616"),
+      "name": { "en": "Notary Services", "uk": "Нотаріальні послуги" },
+      "slug": "notary-services"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4617"),
+      "name": { "en": "Dentistry", "uk": "Стоматологія" },
+      "slug": "dentistry"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4618"),
+      "name": { "en": "Pharmacy", "uk": "Аптека" },
+      "slug": "pharmacy"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4619"),
+      "name": { "en": "Artist", "uk": "Художник" },
+      "slug": "artist"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4620"),
+      "name": { "en": "School Registration", "uk": "Реєстрація до школи" },
+      "slug": "school-registration"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4621"),
+      "name": { "en": "Taxes", "uk": "Податки" },
+      "slug": "taxes"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4622"),
+      "name": { "en": "Handyman Services", "uk": "Handyman" },
+      "slug": "handyman-services"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4623"),
+      "name": { "en": "Education", "uk": "Освіта" },
+      "slug": "education"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4624"),
+      "name": { "en": "Playground / Kids Activities", "uk": "Ігровий майданчик" },
+      "slug": "playground-kids-activities"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4625"),
+      "name": { "en": "Clothing", "uk": "Одяг" },
+      "slug": "clothing"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4626"),
+      "name": { "en": "Lawyer", "uk": "Адвокат" },
+      "slug": "lawyer"
+    },
+    {
+      "_id": ObjectId("650a1f9b9c8a1e3d4a8b4627"),
+      "name": { "en": "Cleaning Services", "uk": "Клінінг" },
+      "slug": "cleaning-services"
+    }
+  ]
+  
