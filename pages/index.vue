@@ -4,18 +4,19 @@
 
         <h2 class="text-2xl font-bold mb-3">Послуги</h2>
 
+
         <input v-model="search" class="h-12 rounded-xl mb-4 px-3 w-full sm:w-96  border-1 border-sky-200"  placeholder="Пошук..." type="text">
 
         <div v-if="loading.categories">Loading categories...</div>
          <div v-else class="flex gap-2 flex-wrap mb-8">
           
-            <span v-for="category in categories" :key="category" class="py-1 px-2 rounded-xl cursor-pointer" :class="[selectedCetegory === category.slug ? 'bg-indigo-500 text-gray-200' : 'bg-indigo-100 text-gray-700']" @click="selectedCetegory = selectedCetegory === category.slug ?  null : category.slug">{{ category.name[language] }} </span>
+            <span v-for="category in categories" :key="category" class="py-1 px-2 rounded-xl cursor-pointer" :class="[selectedCetegory === category.slug ? 'bg-indigo-500 text-gray-200' : 'bg-indigo-100 text-gray-700']" @click="selectedCetegory = selectedCetegory === category.slug ?  null : category.slug">{{ category.icon }} {{ category.name[language] }} </span>
             <span v-if="selectedCetegory" class="py-1 px-2 rounded-xl cursor-pointer border-1 border-indigo-900" @click="selectedCetegory = null">Очистити фільтр</span>
          </div>
 
          <div v-if="loading.services">Loading services...</div>
-         <div class="services-list">
-              <ServiceCard v-for="(service, i) in searchServices" :key="i" :service="service" />
+         <div class="services-list flex-grow">
+              <ServiceCard v-for="(service) in searchServices" :key="service._id" :service="service" :categoriesMap="categoriesMap" />
         </div>
 
  
@@ -110,14 +111,15 @@ const searchServices = computed(() => {
     return s.activeStatus === 'active' && (selectedCetegory.value ? s.category === selectedCetegory.value : true)
     })
 
-    
 
   const searchFiltered = activeAndFiltered.filter((s) => {
     const searchString = (s.name + s.address + s.phones.map(({number}) => number).join('') + s.tags.join('') + s.description + categoriesMap.value[s.category]).toLowerCase()
     return searchString.toLowerCase().includes(search.value.toLowerCase())
-  })  
+  })
 
-    return searchFiltered.map(s => ({...s, categoryName: categoriesMap.value[s.category] }))
+  console.log(searchFiltered)
+
+    return searchFiltered
 })
 
 

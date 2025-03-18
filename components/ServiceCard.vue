@@ -1,7 +1,7 @@
 <template>
 <div class="p-4 border-sky-200 border-1 rounded-xl w-full sm:w-fit sm:max-w-[400px]">
     <div class="flex gap-2 flex-wrap">
-        <h4 class="bg-zinc-100 whitespace-nowrap px-3 py-1 rounded-lg"> {{ service.categoryName }} </h4>
+        <h4 class="bg-zinc-100 whitespace-nowrap px-3 py-1 rounded-lg"> {{ categoriesMap[service.category] }} </h4>
         <h4 class="bg-zinc-100 whitespace-nowrap px-3 py-1 rounded-lg" v-for="(tags, i) in  service.tags"> {{ tags }} </h4>
     </div>
     
@@ -40,12 +40,19 @@
             {{  sm.title  }}
         </a> 
     </p>
+
+    <div class="flex flex-wrap gap-2">
+        <ImageViewer v-for="(photo, i) in service.photos" width="100px" height="100px" class="rounded-lg" :key="i" :src="photo" />
+    </div>
 </div>
 </template>
 
 <script setup>
 
+import ImageViewer from './ImageViewer.vue';
+
 const props = defineProps({
-    service: {}
+    service: {},
+    categoriesMap: {},
 })
 </script>
