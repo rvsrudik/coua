@@ -41,8 +41,8 @@
         </a> 
     </p>
 
-    <div class="flex flex-wrap gap-2">
-        <ImageViewer v-for="(photo, i) in service.photos" width="100px" height="100px" class="rounded-lg" :key="i" :src="photo" />
+    <div class="flex flex-wrap gap-2 mt-4">
+        <ImageViewer v-for="(photo, i) in service.photos" class="rounded-lg" :key="i" :src="photo" />
     </div>
 </div>
 </template>
