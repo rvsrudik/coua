@@ -1,31 +1,28 @@
 <template>
-    <div class="p-4 md:p-6">
-        <MainHeader />
+    <input v-model="search" class="h-12 rounded-xl mb-4 px-3 w-full sm:w-96  border-1 border-sky-200"  placeholder="Пошук..." type="text">
 
-        <h2 class="text-2xl font-bold mb-3">Послуги</h2>
+    <div v-if="loading.categories">Loading categories...</div>
+      <div v-else class="flex gap-2 flex-wrap mb-8">
+      
+        <span v-for="category in categories" :key="category" class="py-1 px-2 rounded-xl cursor-pointer" :class="[selectedCetegory === category.slug ? 'bg-indigo-500 text-gray-200' : 'bg-indigo-100 text-gray-700']" @click="selectedCetegory = selectedCetegory === category.slug ?  null : category.slug">{{ category.icon }} {{ category.name[language] }} </span>
+        <span v-if="selectedCetegory" class="py-1 px-2 rounded-xl cursor-pointer border-1 border-indigo-900" @click="selectedCetegory = null">Очистити фільтр</span>
+      </div>
 
+      <div v-if="loading.services">Loading services...</div>
+      <div class="services-list flex-grow">
+          <ServiceCard v-for="(service) in searchServices" :key="service._id" :service="service" :categoriesMap="categoriesMap" />
+    </div>
 
-        <input v-model="search" class="h-12 rounded-xl mb-4 px-3 w-full sm:w-96  border-1 border-sky-200"  placeholder="Пошук..." type="text">
-
-        <div v-if="loading.categories">Loading categories...</div>
-         <div v-else class="flex gap-2 flex-wrap mb-8">
-          
-            <span v-for="category in categories" :key="category" class="py-1 px-2 rounded-xl cursor-pointer" :class="[selectedCetegory === category.slug ? 'bg-indigo-500 text-gray-200' : 'bg-indigo-100 text-gray-700']" @click="selectedCetegory = selectedCetegory === category.slug ?  null : category.slug">{{ category.icon }} {{ category.name[language] }} </span>
-            <span v-if="selectedCetegory" class="py-1 px-2 rounded-xl cursor-pointer border-1 border-indigo-900" @click="selectedCetegory = null">Очистити фільтр</span>
-         </div>
-
-         <div v-if="loading.services">Loading services...</div>
-         <div class="services-list flex-grow">
-              <ServiceCard v-for="(service) in searchServices" :key="service._id" :service="service" :categoriesMap="categoriesMap" />
-        </div>
+    <FloatingButton />
 
  
-    </div>
+
 </template>
 
 <script setup>
 import ServiceCard from '~/components/ServiceCard.vue';
-import MainHeader from '~/components/MainHeader.vue';
+import FloatingButton from '~/components/FloatingButton.vue';
+
 
 
 const search = ref('')

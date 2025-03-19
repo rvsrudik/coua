@@ -1,7 +1,4 @@
 <template>
-    <div class="p-4 md:p-6">
-        <MainHeader />
-
         <div class="py-3">
             Для додавання оголошення напишіть на пошту  <a href="mailto:rvsrudik@gmail.com" class="underline text-blue-800">rvsrudik@gmail.com</a> або в телеграм <a href="https://t.me/vrudenko" class="underline text-blue-800">@vrudenko</a> 
         </div>
@@ -24,7 +21,6 @@
             </div>
             </div>
         </div>
-    </div>
 </template>
 
 <script setup>
