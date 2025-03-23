@@ -13,17 +13,12 @@
           <ServiceCard v-for="(service) in searchServices" :key="service._id" :service="service" :categoriesMap="categoriesMap" />
     </div>
 
-    <FloatingButton />
-
- 
-
+    <FloatingButton link="https://docs.google.com/forms/d/e/1FAIpQLScC6JWHsmvn73hG2FwQkdMOpLi840b64vmsm0oC6Xm37PiAGw/viewform?usp=header" />
 </template>
 
 <script setup>
 import ServiceCard from '~/components/ServiceCard.vue';
 import FloatingButton from '~/components/FloatingButton.vue';
-
-
 
 const search = ref('')
 const selectedTags = ref([])
